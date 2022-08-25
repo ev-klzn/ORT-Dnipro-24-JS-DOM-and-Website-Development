@@ -1,0 +1,34 @@
+.container {
+    min-height: 100vh;
+    max-width: 500px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-image: radial-gradient(circle, #e5edee, #dee9e9, #d7e5e4, #d0e0df, #cadcd9);
+    font-size: 16px;
+}
+
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: url('../fonts/JetBrainsMono-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'JetBrains Mono' ;
+}
+
+
+.card > img{
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+} 
+
